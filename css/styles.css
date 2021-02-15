@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans";
+    color: white;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(/img/wallpapercerveza.png);
+    background-size: cover;
+    background-position: center center;
+}
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow:7px 7px 60px #000;
+}
+h1{
+    color: #ffffff;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.control input{
+    padding: 10px;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    color:#000;
+    background: #ddd;
+    outline: none;
+    border: none;
+    margin: 1em 0;
+} 
+.control input[type="submit"]{
+    background: #8b3b04;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    opacity: .7;
+    transition: opacity .3s ease;
+}
+.control input[type="submit"]:hover{
+    opacity: 1;
+}
+.link{
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    opacity: .7;
+    transition: opacity .3s ease;
+}
+.link a:hover{
+    opacity: 3;
+}
+.listBar{
+    /* background-color: #8b3b04; */
+    color: white;
+    width: 200px;
+    height: 240px;
+    display: flex;
+    flex-direction: row 2;
+}
+.userlist{
+    width: 180px;
+    height: 220px;
+    margin: 10px;
+    box-shadow: 1px 1px 50px black;
+    background-color: rgba(65, 53, 31, 0.315);
+}
+.userInfo{
+    /* background-color: cadetblue; */
+    width: 160px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 11px;
+}
